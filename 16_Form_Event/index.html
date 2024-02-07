@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Event</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-form{
+            height: 400px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <form id="login-form">
+            <input id="username" type="text" name="username" placeholder="username" required>
+            <input id="password" type="password" name="password" placeholder="password" required>
+            <input id="btn-submit" type="submit" value="login">
+        </form>
+    </header>
+
+    <script src="index.js"></script>
+</body>
+</html>
